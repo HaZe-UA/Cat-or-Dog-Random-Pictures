@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Cat or Dog Random Pictures</title>
+</head>
+<body>
+    <div class="container">
+        <div class="main-screen">
+            <h1 class="main-title">Cat or Dog Random Pictures</h1>
+            <h2 class="sub-title">Which pet photo would you like to see?</h2>
+            <div class="cards">
+                <div class="cat card">
+                    <img src="/img/illustration-colorful-cat-with-pop-art-style-free-vector.webp" alt="Cat card" width="200" height="200">
+                    <button>Get Random Cat Image</button>
+                </div>
+                <div class="dog card">
+                    <img src="/img/600_wpaprint_g9a183.jpg" alt="Cat card" width="200" height="200">
+                    <button>Get Random Dog Image</button>
+                </div>
+            </div>
+        </div>
+        <div class="random-animal screen-cat">
+            <div class="back-btn-container">
+                <button class="back-btn"></button>
+                <span>Back</span>
+            </div>
+            <h1 class="main-title cat-title">Random Cat Image</h1>
+            <div class="random-img">
+                <img class="img cat-img" src="#" alt="Random image">
+                <button class="next-img-cat">Next Image</button>
+            </div>
+        </div>
+        <div class="random-animal screen-dog">
+            <div class="back-btn-container">
+                <button class="back-btn"></button>
+                <span>Back</span>
+            </div>
+            <h1 class="main-title dog-title">Random Dog Image</h1>
+            <div class="random-img">
+                <img class="img dog-img" src="#" alt="Random image" width="400" height="300">
+                <button class="next-img-dog hover-mobile">Next Image</button>
+            </div>
+        </div>
+    </div>   
+    <script src="/script/main.js" type="module"></script>
+</body>
+</html>
